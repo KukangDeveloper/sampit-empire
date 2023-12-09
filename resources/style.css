@@ -1,6 +1,6 @@
 .bg-hero {
   height: 470px;
-  background-image: url("/resources/images/bg_hero.png");
+  background-image: url("resources/images/bg_hero.png");
   background-repeat: no-repeat;
   /* background-position: 30% 40%; */
   background-size: cover;

@@ -1,3 +1,7 @@
+.jarak {
+  margin-bottom: 140px;
+}
+
 .bg-hero {
   height: 470px;
   background-image: url("../resources/images/bg_hero.png");
@@ -12,6 +16,31 @@
   position: relative;
   top: 80%;
   filter: drop-shadow(1px 1px 1px #000000);
+}
+
+.box-season {
+  width: 320px;
+  height: 440px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+  border-radius: 4px;
+}
+
+.box-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.screen {
+  width: 640px;
+  height: 400px;
+  background-color: #d9d9d9;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 4px;
 }
 
 @media (min-width: 960px) {

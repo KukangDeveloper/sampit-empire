@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="resources/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #212226">
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #212226">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="resources/images/logo.png" alt="Logo" width="64" height="64" />
@@ -36,20 +36,80 @@
       </div>
     </nav>
 
-    <div class="bg-hero">
+    <div class="bg-hero jarak">
       <div class="hero">
         <img src="resources/images/hero.png" width="1024" height="256" alt="hero" />
       </div>
     </div>
 
-    <div class="about">
-      <div class="container-md" style="margin-top: 120px">
+    <div id="about" class="jarak">
+      <div class="container">
         <h4>Hello everyone</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloremque, magnam
           eveniet consectetur repudiandae illo dolorem nemo perspiciatis, doloribus ab minima
           laudantium sunt labore? Nihil vel accusantium commodi animi asperiores.
         </p>
+      </div>
+    </div>
+
+    <div id="series" class="jarak">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <img src="resources/images/series.png" width="384" alt="series" />
+        </div>
+        <div class="list-series d-flex justify-content-center flex-wrap gap-4">
+          <div class="box">
+            <div class="box-season">
+              <img src="resources/images/bookmark.png" width="98" alt="mark" />
+            </div>
+            <div class="box-text">
+              <h4>[ SEASON 1 ]</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-season">
+              <img src="resources/images/bookmark.png" width="98" alt="mark" />
+            </div>
+            <div class="box-text">
+              <h4>[ SEASON 2 ]</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-season">
+              <img src="resources/images/bookmark.png" width="98" alt="mark" />
+            </div>
+            <div class="box-text">
+              <h4>[ SEASON 3 ]</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="community">
+      <div class="d-flex justify-content-center">
+        <img src="resources/images/community.png" width="384" alt="series" />
+      </div>
+
+      <div class="container">
+        <div class="d-flex flex-wrap column-gap-4">
+          <div class="main-screen">
+            <div class="screen"></div>
+            <div class="d-flex justify-content-center">
+              <img src="resources/images/discord.png" width="128" alt="Discord" />
+              <img src="resources/images/wa.png" width="128" alt="Discord" />
+              <img src="resources/images/instagram.png" width="128" alt="Discord" />
+              <img src="resources/images/youtube.png" width="128" alt="Discord" />
+            </div>
+          </div>
+          <div class="skin">
+            <img src="resources/images/rif_skin.png" width="512" alt="RIF" />
+          </div>
+        </div>
       </div>
     </div>
 
